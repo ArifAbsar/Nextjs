@@ -1,3 +1,4 @@
+import React, { forwardRef } from "react";
 import { cn } from "../../lib/utils"; // Adjusted import path
 import { cva } from "class-variance-authority";
 
@@ -27,11 +28,12 @@ const buttonVariants = cva(
   }
 );
 
-export function Button({ className, variant, size, ...props }) {
+export const Button = forwardRef(({ className, variant, size, ...props }, ref) => {
   return (
     <button
+      ref={ref}
       className={cn(buttonVariants({ variant, size }), className)}
       {...props}
     />
   );
-}
+});
