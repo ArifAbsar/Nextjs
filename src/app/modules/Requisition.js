@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { Input } from "../../components/ui/input";
 import { Button } from "../../components/ui/button";
 import AddNewDialog from "../modules/AddNewDialog";
+import ViewRequisitionDialog from "../modules/ViewRequisition";
 import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
 
@@ -90,7 +91,7 @@ export default function Requisition() {
                 <td className="border border-gray-200 p-2">{item.memo}</td>
                 <td className="border border-gray-200 p-2">{item.status}</td>
                 <td className="border border-gray-200 p-2 flex space-x-2">
-                  <Button className="bg-blue-500 text-white p-2 rounded">View</Button>
+                  <ViewRequisitionDialog requisition={item} />
                   <Button className="bg-blue-500 text-white p-2 rounded" onClick={() => printRequisition(item)}>Print</Button>
                 </td>
               </tr>
