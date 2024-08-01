@@ -1,0 +1,38 @@
+[
+  {
+    "date": "July/07/24",
+    "requisitionNo": "PR-2024-0058",
+    "project": "Barkat",
+    "department": "Import",
+    "total": "xxx",
+    "memo": "xxx",
+    "status": "approved"
+  },
+  {
+    "date": "July/08/24",
+    "requisitionNo": "PR-2024-0059",
+    "project": "Kudrat",
+    "department": "Import",
+    "total": "xxx",
+    "memo": "xxx",
+    "status": "waiting"
+  },
+  {
+    "date": "July/06/24",
+    "requisitionNo": "PR-2024-0057",
+    "project": "Barkat",
+    "department": "Local",
+    "total": "xxx",
+    "memo": "xxx",
+    "status": "rejected"
+  },
+  {
+    "date": "July/07/24",
+    "requisitionNo": "PR-2024-0058",
+    "project": "Barkat",
+    "department": "Local",
+    "total": "xxx",
+    "memo": "xxx",
+    "status": "correction"
+  }
+]
