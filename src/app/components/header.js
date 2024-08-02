@@ -1,4 +1,3 @@
-// components/Header.js
 export default function Header() {
   return (
     <header className="bg-gray-800 text-white py-4 fixed w-full z-10 top-0 left-0">

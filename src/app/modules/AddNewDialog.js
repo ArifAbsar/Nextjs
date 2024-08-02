@@ -52,7 +52,7 @@ export default function AddNewDialog() {
     // Log the form data to the console
     console.log(newRequisition);
 
-    // Close the dialog
+    
     closeDialog();
   };
 

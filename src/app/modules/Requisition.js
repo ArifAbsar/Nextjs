@@ -1,5 +1,4 @@
-"use client"; // This directive marks the file as a Client Component
-
+"use client";
 import { useEffect, useState } from "react";
 import { Input } from "../../components/ui/input";
 import { Button } from "../../components/ui/button";
@@ -12,7 +11,6 @@ export default function Requisition() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    // Fetch data from the JSON file
     fetch('/requisitionData.json')
       .then(response => response.json())
       .then(data => setData(data));
